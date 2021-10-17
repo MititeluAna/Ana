@@ -2,12 +2,11 @@ package com.company;
 
 public class Registru {
     private String elev;
-    private String disciplina;
+    private String disciplina ="matematica";
     private int nota;
 
-    public Registru(String elev, String disciplina, int nota) {
+    public Registru(String elev, int nota) {
         this.elev = elev;
-        this.disciplina = disciplina;
         this.nota = nota;
     }
 
